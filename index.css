@@ -1,0 +1,217 @@
+/* setting default values of body*/
+body {
+  margin: 0px;
+  padding: 0px;
+  background: url("img/background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* styliing left part of navigation bar */
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 50px;
+  top: 20px;
+}
+/* styliing center of navigation bar */
+.centre {
+  display: block;
+  width: 33%;
+  margin: 20px auto;
+}
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 34px;
+  top: 20px;
+}
+.navigation {
+  display: inline-block;
+  width: max-content;
+}
+.navigation li {
+  display: inline-block;
+  font-size: 20px;
+}
+.navigation li a {
+  color: white;
+  text-decoration: none;
+  padding: 34px 15px;
+  font-family: "Baloo Bhai 2", cursive;
+}
+
+.left img {
+  width: 80px;
+}
+.left div {
+  text-align: center;
+  color: cornsilk;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 20px;
+  text-align: justify;
+}
+/* styling buttons */
+.btn {
+  margin: 0px 10px;
+  text-decoration: none;
+  background-color: antiquewhite;
+  color: darkslategrey;
+  padding: 10px 14px;
+  border-radius: 30px;
+  font-size: 20px;
+  cursor: pointer;
+  color: aqua;
+}
+.project {
+  border: 2px solid white;
+  margin: 40px auto;
+  padding: 40px 10px;
+  width: 60%;
+  height: 600px;
+  background-color: aliceblue;
+  box-shadow: 2px 2px 20px;
+  border-radius: 10px;
+}
+#welcome {
+  margin: 100px;
+
+  text-align: center;
+  font-size: 80px;
+  font-family: "Berkshire Swash", cursive;
+}
+.picture {
+  height: 483px;
+  width: 372px;
+}
+.project h1 {
+  float: right;
+  font-size: 50px;
+  font-family: "Sedgwick Ave Display", cursive;
+  padding-right: 20px;
+}
+
+.intro li {
+  text-decoration: none;
+  float: left;
+}
+#home {
+  padding-left: 30px;
+}
+
+.project-title a {
+  font-size: 30px;
+  padding: 20px 40px;
+}
+#interest p {
+  font-size: 40px;
+  padding: 20px 10px;
+}
+
+#ttt {
+  position: relative;
+  border: 2px solid white;
+  margin: 40px auto;
+  padding: 40px 10px;
+  width: 60%;
+  height: 120px;
+  background-color: aliceblue;
+  box-shadow: 2px 2px 20px;
+  border-radius: 10px;
+  font-family: "Redressed", cursive;
+}
+
+#gallery {
+  position: relative;
+  border: 2px solid white;
+  margin: 40px auto;
+  padding: 40px 10px;
+  width: 60%;
+  height: 120px;
+  background-color: aliceblue;
+  box-shadow: 2px 2px 20px;
+  border-radius: 10px;
+  font-family: "Redressed", cursive;
+}
+#photo {
+  text-align: center;
+  font-size: 40px;
+}
+
+#mine {
+  font-family: "Berkshire Swash", cursive;
+  font-size: 60px;
+  text-align: center;
+  padding-bottom: 50px;
+  padding-top: 50px;
+  color: antiquewhite;
+}
+.footer {
+  border: 2px solid white;
+  margin-top: 40px;
+  /* padding:40px 10px; */
+  width: 100%;
+  height: 300px;
+  background-color: aliceblue;
+  box-shadow: 2px 2px 20px;
+  position: fixed;
+  bottom: 0%;
+}
+.foot {
+  float: left;
+  height: auto;
+  width: 33%;
+  position: initial;
+  padding-top: 50px;
+}
+.form1 {
+  position: left;
+  width: 200px;
+  display: flex;
+}
+.para {
+  font-family: "Berkshire Swash", cursive;
+  word-spacing: 10px;
+  width: 300px;
+  margin-left: 30px;
+}
+#forms {
+  padding-top: 50px;
+}
+.foot img {
+  width: 25px;
+  height: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#follow {
+  position: absolute;
+  display: inline-block;
+}
+#follow p {
+  font-weight: bold;
+  font-size: 30px;
+}
+#button {
+  text-align: center;
+  background-color: gainsboro;
+}
+.navigation li a:hover {
+  text-decoration: underline;
+  color: antiquewhite;
+}
+#mail a {
+  text-decoration: none;
+  color: black;
+}
+#facebook:hover {
+  width: 30px;
+  height: 30px;
+}
+#linkedin:hover {
+  width: 30px;
+  height: 30px;
+}
+#insta:hover {
+  width: 30px;
+  height: 30px;
+}
